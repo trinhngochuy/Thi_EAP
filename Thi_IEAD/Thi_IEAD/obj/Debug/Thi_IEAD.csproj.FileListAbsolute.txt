@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\Thi_IEAD\Thi_IEAD\obj\Debug\Thi_IEAD.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Thi_IEAD\Thi_IEAD\bin\Thi_IEAD.dll.config
+C:\Users\Admin\source\repos\Thi_IEAD\Thi_IEAD\bin\Thi_IEAD.dll
+C:\Users\Admin\source\repos\Thi_IEAD\Thi_IEAD\bin\Thi_IEAD.pdb
+C:\Users\Admin\source\repos\Thi_IEAD\Thi_IEAD\bin\EntityFramework.dll
+C:\Users\Admin\source\repos\Thi_IEAD\Thi_IEAD\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\source\repos\Thi_IEAD\Thi_IEAD\bin\EntityFramework.xml
+C:\Users\Admin\source\repos\Thi_IEAD\Thi_IEAD\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\source\repos\Thi_IEAD\Thi_IEAD\obj\Debug\Thi_IEAD.csproj.CopyComplete
+C:\Users\Admin\source\repos\Thi_IEAD\Thi_IEAD\obj\Debug\Thi_IEAD.dll
+C:\Users\Admin\source\repos\Thi_IEAD\Thi_IEAD\obj\Debug\Thi_IEAD.pdb
+C:\Users\Admin\source\repos\Thi_IEAD\Thi_IEAD\obj\Debug\Thi_IEAD.Migrations.create_table.resources
+C:\Users\Admin\source\repos\Thi_IEAD\Thi_IEAD\obj\Debug\Thi_IEAD.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Thi_IEAD\Thi_IEAD\obj\Debug\Thi_IEAD.csproj.AssemblyReference.cache

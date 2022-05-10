@@ -1,0 +1,70 @@
+﻿@model IEnumerable<ClientThi.ServiceReference1.Employee>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<p>
+    Title: <input type="text" name="SearchString" />
+           <button id="filter" >Filter</button>
+</p>
+<p>
+    @Html.ActionLink("Create New", "CreateEmployee")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Id
+        </th>
+        <th>
+            Name
+        </th>
+        <th>
+            Salary
+        </th>
+        <th>
+            Department
+        </th>
+        <th></th>
+    </tr>
+
+  
+    <tr>
+        <td id="Id">
+     
+        </td>
+        <td id="Name">
+   
+        </td>
+        <td id="Salary">
+       
+        </td>
+        <td id="Department">
+
+        </td>
+
+    </tr>
+    
+
+</table>
+@section scripts{
+    <script>
+        $("#filter").click(function () {
+            $.ajax({
+                type: "POST",
+                url: "Search",
+                data: {
+                    key: $("input[name=SearchString]").val(),
+                },
+                success: function (data) {
+                    $("#Id").html(data[0].Id);
+                    $("#Name").html(data[0].Name);
+                    $("#Salary").html(data[0].Salary);
+                    $("#Department").html(data[0].Department);
+
+                }
+            });
+        });
+    </script>
+}
